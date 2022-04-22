@@ -1,0 +1,94 @@
+*{margin: 0; padding: 0;}
+
+body{
+	background-image: url("../img/fundo.jpg");
+	color: white;
+	font-family: arial;
+}
+
+input{
+    display: block;
+    height: 50px;
+    width: 380px;
+    margin: 10px;
+    border-radius: 10px;
+    border:1px solid white;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: white;
+    outline: none;
+}
+
+div#corpo-form{
+	width: 450px;
+    height: 350px;
+	margin: 150px auto 0px auto;
+    background-color:  rgba(10, 10, 10, 0.4);
+}
+
+div#corpo-form-cad{
+    align-items: center;
+	width: 450px;
+    height: 560px;
+	margin: 50px auto 0px auto;
+    background-color:  rgba(10, 10, 10, 0.4);
+}
+
+
+div#corpo-form h1, div#corpo-form-cad h1{
+    text-align: center;
+    padding: 20px;
+}
+
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+background-color:  rgba(10, 10, 10, 0.616);
+width: 423px;
+border: none;
+cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+:-moz-placeholder{
+    color: #fff;
+}
+
+::-moz-placeholder{
+    color: #fff;
+}
+
+:-ms-input-placeholder{
+    color: #fff;
+}
+
+div#msg-sucesso{
+    width: 430px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50,205,50,.3);
+    border:1px solid rgb(34,139,39);
+}
+
+div.msg-erro{
+    width: 430px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250,128,114,.3);
+    border:1px solid rgb(165,42,42);
+
+}
